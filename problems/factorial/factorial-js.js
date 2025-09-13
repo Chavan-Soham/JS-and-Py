@@ -10,4 +10,16 @@ function factorialIter(num) {
     return num;
 }
 
-console.log(factorialIter(4))
+/* console.log(factorialIter(4)) */
+
+function factorialRecu(num) {
+    if (num === 1 || num === 0) {
+        return 1 
+    }
+    if (num > 1) {
+        return num*factorialRecu(num - 1)
+    } else {
+        return `${num} cannot be negative!`
+    }
+}
+console.log(factorialRecu(5))

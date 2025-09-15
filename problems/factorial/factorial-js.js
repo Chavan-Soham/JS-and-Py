@@ -22,4 +22,5 @@ function factorialRecu(num) {
         return `${num} cannot be negative!`
     }
 }
-console.log(factorialRecu(5))
+
+// console.log(factorialRecu(5))
